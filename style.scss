@@ -1,0 +1,11 @@
+
+// xử lý textarea ko cho bị kéo
+textarea{
+  resize: none;
+  outline:none;
+}
+//xử lý input number ko cho hiện thanh chỉnh
+input[type="number"]::-webkit-inner-spin-button{
+ margin:0;
+ --webkit-appearance: none;
+}
